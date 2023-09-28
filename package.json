@@ -1,7 +1,11 @@
 {
-  "name": "template",
-  "version": "0.0.0",
-  "private": true,
+  "name": "nodejs-hw-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./server.js",
     "start:dev": "cross-env NODE_ENV=development nodemon ./server.js",
@@ -41,17 +45,7 @@
     "nodemon": "2.0.15",
     "supertest": "^6.3.3"
   },
-  "description": "Виконайте форк цього репозиторію для виконання домашніх завдань (2-6) Форк створить репозиторій на вашому http://github.com",
-  "main": ".eslintrc.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Antifishka/nodejs-hw-rest-api.git"
-  },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Antifishka/nodejs-hw-rest-api/issues"
-  },
-  "homepage": "https://github.com/Antifishka/nodejs-hw-rest-api#readme"
+  "license": "ISC"
 }
